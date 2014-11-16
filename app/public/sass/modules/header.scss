@@ -1,0 +1,52 @@
+/*
+  @name: Header
+  @description: Styles for main header.
+  @author: Rafael Gomes Alcantara
+  @create: 15/11/2014
+*/
+
+header {
+  height: 100px;
+  margin: 0 auto;
+  padding-top: 10px;
+  position: relative;
+  width: $width;
+
+  .logo {
+    background-image: url( "#{$base-img}/logo/logo.png" );
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 100px;
+    text-indent: -9999px;
+    width: 263px;
+  }
+
+  p {
+    @include text-size( 18px );
+    color: #219adc;
+    display: block;
+    left: 300px;
+    position: absolute;
+    top: 45px;
+  }
+
+  .hud {
+    display: block;
+    float: right;
+    margin-top: 35px;
+    padding-right: 10px;
+
+    li {
+      display: inline-block;
+      @include text-size( 18px );
+
+      &:first-child {
+        padding-right: 10px;
+      }
+
+      span {
+        color: #e85b54;
+      }
+    }
+  }
+}
