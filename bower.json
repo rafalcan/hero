@@ -1,0 +1,19 @@
+{
+  "name": "hero",
+  "version": "0.1.0",
+  "private": true,
+  "main": "bower.json",
+  "dependencies": {
+    "modernizr": "~2.8.1",
+    "requirejs": "~2.1.11",
+    "requirejs-domready": "~2.0.1",
+    "jquery": "~2.1.1",
+    "lodash": "~2.4.1",
+    "backbone": "~1.1.2"
+  },
+  "devDependencies": {},
+  "authors": [
+    "Rafael Gomes Alcantara <rafalcan@gmail.com>"
+  ],
+  "license": "MIT"
+}
