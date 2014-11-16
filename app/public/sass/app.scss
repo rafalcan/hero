@@ -1,0 +1,38 @@
+/*
+  @name: App
+  @description: Union of the parts.
+  @author: Rafael Gomes Alcantara
+  @create: 15/11/2014
+*/
+
+/* Base
+---------------------------------------- */
+@import "base/vars";
+@import "base/mixins";
+
+
+/* Reset
+---------------------------------------- */
+@import "modules/reset";
+
+
+/* General
+---------------------------------------- */
+@import "modules/general";
+
+
+/* Header
+---------------------------------------- */
+@import "modules/header";
+
+
+/* Section - App
+---------------------------------------- */
+.app {
+  border: 2px solid #333;
+  display: block;
+  margin: 10px auto 0;
+  position: relative;
+  width: $width;
+  //width: 50%;
+}

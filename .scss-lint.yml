@@ -1,0 +1,23 @@
+linters:
+  Comment:
+    enabled: false
+
+  HexLength:
+    enabled: true
+    style: short # or 'long'
+
+  HexNotation:
+    enabled: true
+    style: lowercase # or 'uppercase'
+
+  SelectorDepth:
+    enabled: true
+    max_depth: 8
+
+  SpaceBetweenParens:
+    enabled: true
+    spaces: 1
+
+  StringQuotes:
+    enabled: true
+    style: double_quotes # or single_quotes
