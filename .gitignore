@@ -2,6 +2,7 @@
 /vendor
 /node_modules
 /public/components
+/app/public/components
 /dist
 composer.phar
 composer.lock
