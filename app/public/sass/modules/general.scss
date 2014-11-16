@@ -1,0 +1,132 @@
+/*
+  @name: General
+  @description: General styles.
+  @author: Rafael Gomes Alcantara
+  @create: 15/11/2014
+*/
+
+/* Base
+---------------------------------------- */
+html,
+body {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+body {
+  @include text-body-size;
+  background: #fff;
+  color: #68686a;
+  font-family: $font-family;
+  overflow-x: hidden;
+}
+
+a {
+  color: #2b7ea6;
+}
+
+hr {
+  border: solid #dfdfdf;
+  border-width: 1px 0 0;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.main {
+  @include background-gradient( #fff, #f3f3f3 );
+  min-height: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.line {
+  background: url( "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAEElEQVQImWPYsWPHfwaCAAByzAMoCxNUdwAAAABJRU5ErkJggg==" ) repeat;
+  clear: both;
+  display: block;
+  height: 20px;
+  width: 100%;
+
+  &:before {
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+  }
+}
+
+
+/* Text
+---------------------------------------- */
+h1 {
+  @include text-size( 30px );
+}
+
+h2 {
+  @include text-size( 25px );
+}
+
+h3 {
+  @include text-size( 20px );
+}
+
+h4 {
+  @include text-size( 18px );
+}
+
+h5 {
+  @include text-size( 16px );
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #3f3f3f;
+  font-family: $font-family;
+}
+
+p {
+  font-family: $font-family;
+}
+
+
+/* Helper
+---------------------------------------- */
+.clear {
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+}
+
+.hide {
+  display: none !important;
+}
+
+.no-scroll {
+  overflow: hidden !important;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
