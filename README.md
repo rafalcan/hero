@@ -1,7 +1,7 @@
 Hero The Plataform
 ====
 
-## Before you start
+## Before you start 
 
 The best way to run the project on development mode (locally) is install NginX with Vhost. I am using hero.local in my local.
 But if you don't want to do that, access this [link](http://rafalcan.github.io/hero) and enjoy.
